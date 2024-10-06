@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="nav">
+        <div class="left">
+            <h4>How it works</h4>
+            <h4>Service</h4>
+            <h4>Client</h4>
+        </div>
+        <div class="logo">
+            <img src="download.jpeg" alt="logo">
+            <h4>libertons</h4>
+        </div>
+        <div class="right">
+            <h4>FAQ</h4>
+            <button>Get started <i class="ri-arrow-right-line"></i></button>
+        </div>
+    </div>
+    <div class="cantainer">
+        <div class="img-div">
+            <!-- <i class="ri-gemini-fill"></i> -->
+
+            <img src="data:image/jpeg;base64,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"
+                alt="">
+        </div>
+        <div class="middle">
+            <h3>Crafting Experiences that Inspire</h3>
+
+        </div>
+        <div class="last">
+            <h4>35 N Dearborn ST </h4>
+            <button>Chicago</button>
+        </div>
+    </div>
+    <div class="text">
+        <h2>Elevate Your</h2>
+        <h3>Brand <img src="download.jpeg" alt=""> with our</h3>
+        <button>Creative</button>
+        <h3 class="magic"> Magic</h3>
+        <p><img src="download (1).jpeg" alt=""></p>
+    </div>
+    <div id="left-logo">
+        <img src="images.jpeg" alt="">
+        <h4>Amplify brands by crafting unique and compelling <br>brand identities that leave a lasting impact</h4>
+        <p>Scroll down <i class="ri-arrow-down-line"></i></p>
+    </div>
+
+
+    <div id="page2">
+        <div class="heading">
+            <h3>Our Experties</h3>
+            <div class="last-heading">
+                <h3>Transform idess into realty by combinig <br> Creativitly,Stretagy,And experties </h3>
+            </div>
+
+            <div class="card-div">
+                <div class="card1">
+                    <h2>Market research</h2>
+                    <i class="ri-arrow-right-up-line"></i>
+                    <p>Blends consumer behavior and economic <br> trends to confirm and improve business idea.</p>
+                    <img src="download (3).jpeg" alt="">
+                </div>
+
+                <div class="card2">
+                    <h2>Adds Production</h2>
+                    <p>Creative consultation, Pre-production,<br> Production and Post-production.</p>
+                    <img src="download (4).jpeg" alt="">
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+
+
+                <div class="card3">
+                    <h2>Branding strategies</h2>
+                    <i class="ri-arrow-right-up-line"></i>
+                    <p>Builds identification and favorability with <br>
+                        customers and potential customers.</p>
+                    <img src="download (5).jpeg" alt="">
+                </div>
+
+
+            </div>
+            <div class="bottom-text">
+                <p>We Create </p>
+                <h2> Impactful </h2>
+                <h2> Experiences For Our</h2>
+                <h2>Clients' Customers</h2>
+                <h2>Every Time They </h2>
+                <h2>Engage With A </h2>
+                <h2>Brand</h2>
+                <img src="download.jpeg" alt="">
+                <h3>700+</h3>
+                <h5>Project Complete</h5>
+                <h6>We take pride in our client success stories, where our creative
+                    <br> strategies and execution have played a vital role in achieving their
+                    business goals and surpassing expectations.
+                </h6>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div id="page3">
+        <h5>Recent work</h5>
+        <p>Through meticulous planning, seamless execution,<br> and creative problem-solving, we achieved <br>
+            remarkable project success.</p>
+        <div class="card">
+            <img src="pexels-valeriia-miller-3685530_edited.webp" alt="">
+            <h2>The Ordinary</h2>
+            <p>DesignDigital, WebContent, Campaigns Events & Activations</p>
+        </div>
+        <div class="google-card">
+            <img src="How-Google-Helps-You-Optimize-the-Customer-Journey.webp" alt="">
+            <h2>Google LLC</h2>
+            <p>Brand Strategy, VoiceBranding, DesignDigital, WebContent,<br> Campaigns Events & Activations</p>
+        </div>
+
+    </div>
+    <div id="phone">
+        <img src="download (7).jpeg" alt="">
+        <h2>Apple Inc</h2>
+        <p>DesignDigital, WebContent, Campaigns Events & Activations, Brand <br> Strategy, VoiceBranding</p>
+
+    </div>
+    <div class="coco-cola">
+        <img src="download (8).jpeg" alt="">
+        <i class="ri-arrow-right-up-line"></i>
+        <h2>The Coco Cola Company</h2>
+        <p>Brand Strategy, DesignDigital, Campaigns Events & Activations,<br> Content & Campaigns</p>
+    </div>
+    <div id="page4">
+        <div class="img-logo">
+            <img src="download.png" alt="">
+            <img src="download.png" alt="">
+            <img src="download.png" alt="">
+            <img src="download.png" alt="">
+            <img src="download.png" alt="">
+            <img src="download.png" alt="">
+            <img src="download.png" alt="">
+            <img src="download.png" alt="">
+            <img src="download.png" alt="">
+            <img src="download.png" alt="">
+        </div>
+
+    </div>
+    <div id="page5">
+        <div class="my-text">
+            <h4>Start crafting your brand story</h4>
+            <h1>Partner With Us To Create <br>A Compelling Narrative <br>For Your Brand!</h1>
+            <img src="download.jpeg" alt="">
+            <p>Let's bring your ideas to life, start collaborating with our creative <br> agency and turn your vision
+                into reality.</p>
+        </div>
+
+        <div class="footer">
+            <h3>Libartons</h3>
+            <p>35 N Deaborn ST, Chicago, IL 60601, USA <br>
+                +1-202-555-0156, (555) 555-1234 <br>
+                info@libertans.com</p>
+                <BUtton class="btn1">Market research</BUtton>
+                 <button class="btn2">Ads Production</button>
+                 <button class="btn3">Branding strategies</button>
+
+                 <h5>Privacy & Cookie Policy | Libertans © 2023</h5>
+        </div>
+      
+            
+        
+    </div>
+
+</body>
+
+</html>
